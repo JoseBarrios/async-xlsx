@@ -14,9 +14,9 @@
     "js"
   ],
   "dependencies": {
-    "lodash": "^2.4.1",
+    "each-async": "1.1.0",
     "js-xlsx": "^0.7.10",
-    "each-async": "1.1.0"
+    "lodash": "^2.4.1"
   },
   "license": "MIT",
   "ignore": [

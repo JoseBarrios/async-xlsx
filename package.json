@@ -18,12 +18,12 @@
     "async"
   ],
   "dependencies": {
-    "lodash.defaults": "^2.4.1",
-    "lodash.map": "^2.4.1",
-    "xlsx": "^0.7.10",
-    "each-async": "1.1.0"
+    "each-async": "^1.1.1",
+    "lodash.defaults": "^4.2.0",
+    "lodash.map": "^4.6.0",
+    "xlsx": "^0.8.0"
   },
   "devDependencies": {
-    "nodeunit": "^0.9.0"
+    "nodeunit": "^0.10.2"
   }
 }
