@@ -21,7 +21,7 @@
     "each-async": "^1.1.1",
     "lodash.defaults": "^4.2.0",
     "lodash.map": "^4.6.0",
-    "xlsx": "^0.8.0"
+    "xlsx": "https://github.com/IrishAdo/js-xlsx/tarball/master"
   },
   "devDependencies": {
     "nodeunit": "^0.10.2"
