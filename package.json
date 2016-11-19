@@ -1,5 +1,5 @@
 {
-  "name": "async-xlsx",
+  "name": "@s4rb/async-xlsx",
   "author": "Jose Barrios",
   "license": "MIT",
   "version": "0.5.5",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JoseBarrios/async-xlsx"
+    "url": "https://github.com/S4RB/async-xlsx"
   },
   "keywords": [
     "excel",
