@@ -1,5 +1,5 @@
 {
-  "name": "async-xlsx",
+  "name": "@s4rb/async-xlsx",
   "author": "Jose Barrios",
   "license": "MIT",
   "version": "0.5.5",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JoseBarrios/async-xlsx"
+    "url": "https://github.com/S4RB/async-xlsx"
   },
   "keywords": [
     "excel",
@@ -18,12 +18,12 @@
     "async"
   ],
   "dependencies": {
-    "lodash.defaults": "^2.4.1",
-    "lodash.map": "^2.4.1",
-    "xlsx": "^0.7.10",
-    "each-async": "1.1.0"
+    "each-async": "^1.1.1",
+    "lodash.defaults": "^4.2.0",
+    "lodash.map": "^4.6.0",
+    "xlsx": "https://github.com/IrishAdo/js-xlsx/tarball/master"
   },
   "devDependencies": {
-    "nodeunit": "^0.9.0"
+    "nodeunit": "^0.10.2"
   }
 }
