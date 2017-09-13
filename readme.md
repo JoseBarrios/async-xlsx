@@ -23,9 +23,16 @@ var buffer = xlsx.build([{name: "mySheetName", data: data}]);
 
 //  ------------------ Asynchronous ----------------------------
 // Transform an Excel file to JSON or an 2D array (async)
-xlsx.parseFileAsync(__dirname + '/myFile.xlsx', {options}, function(parsedObject){
+xlsx.parseFileAsyncArray(__dirname + '/myFile.xlsx', {options}, function(parsedObject){
 	// Callbacks happens when the Excel data is fully loaded and ready for use	
 });
+
+// Transform an Excel file to a CSV(async)
+const optionsCSV = { RS: '\n', FS: ';' };
+xlsx.parseFileAsyncCSV(__dirname + '/myFile.xlsx', {options}, optionsCSV, function(csvData){
+	// Callbacks happens when the Excel data is fully loaded and ready for use	
+});
+
 
 //  ------------------ Asynchronous ----------------------------
 // Easily build an Excel document from a 2D array (async)
